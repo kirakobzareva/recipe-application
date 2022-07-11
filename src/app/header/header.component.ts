@@ -6,12 +6,6 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  @Output() selectedFeature = new EventEmitter<string>();
-
-  onSelect(feature: string) {
-    this.selectedFeature.emit(feature);
-  }
   constructor() { }
 
   ngOnInit(): void {
