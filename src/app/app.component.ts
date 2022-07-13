@@ -10,9 +10,5 @@ export class AppComponent {
 
   constructor(){}
 
- loadedFeature = 'recipe'
 
-  onNavigate(feature:string) {
-    this.loadedFeature = feature;
-  }
 }
